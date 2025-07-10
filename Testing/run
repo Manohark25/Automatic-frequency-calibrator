@@ -1,0 +1,3 @@
+iverilog -o out.vvp afc_final.v afc_tb.v
+vvp out.vvp
+gtkwave out.vcd
