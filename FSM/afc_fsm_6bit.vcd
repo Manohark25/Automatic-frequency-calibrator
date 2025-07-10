@@ -1,0 +1,339 @@
+$date
+	Sun Jun 15 18:29:03 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_afc_fsm_6bit $end
+$var wire 6 ! state_out [5:0] $end
+$var wire 1 " change $end
+$var reg 1 # clk $end
+$var reg 3 $ comp_in [2:0] $end
+$var reg 1 % done $end
+$var reg 1 & rst_n $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 3 ' comp_in [2:0] $end
+$var wire 1 % done $end
+$var wire 1 & rst_n $end
+$var parameter 6 ( DONE_FLAG $end
+$var parameter 3 ) FAST $end
+$var parameter 3 * FREEZE $end
+$var parameter 6 + S00000 $end
+$var parameter 6 , S00001 $end
+$var parameter 6 - S00010 $end
+$var parameter 6 . S00011 $end
+$var parameter 6 / S00100 $end
+$var parameter 6 0 S00101 $end
+$var parameter 6 1 S00110 $end
+$var parameter 6 2 S00111 $end
+$var parameter 6 3 S01000 $end
+$var parameter 6 4 S01001 $end
+$var parameter 6 5 S01010 $end
+$var parameter 6 6 S01011 $end
+$var parameter 6 7 S01100 $end
+$var parameter 6 8 S01101 $end
+$var parameter 6 9 S01110 $end
+$var parameter 6 : S01111 $end
+$var parameter 6 ; S10000 $end
+$var parameter 6 < S10001 $end
+$var parameter 6 = S10010 $end
+$var parameter 6 > S10011 $end
+$var parameter 6 ? S10100 $end
+$var parameter 6 @ S10101 $end
+$var parameter 6 A S10110 $end
+$var parameter 6 B S10111 $end
+$var parameter 6 C S11000 $end
+$var parameter 6 D S11001 $end
+$var parameter 6 E S11010 $end
+$var parameter 6 F S11011 $end
+$var parameter 6 G S11100 $end
+$var parameter 6 H S11101 $end
+$var parameter 6 I S11110 $end
+$var parameter 6 J S11111 $end
+$var parameter 3 K SLOW $end
+$var reg 1 " change $end
+$var reg 6 L current_state [5:0] $end
+$var reg 1 M finish $end
+$var reg 6 N next_state [5:0] $end
+$var reg 6 O state_out [5:0] $end
+$upscope $end
+$scope task apply_input $end
+$var reg 3 P c [2:0] $end
+$var integer 32 Q delay [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 K
+b11111 J
+b11110 I
+b11101 H
+b11100 G
+b11011 F
+b11010 E
+b11001 D
+b11000 C
+b10111 B
+b10110 A
+b10101 @
+b10100 ?
+b10011 >
+b10010 =
+b10001 <
+b10000 ;
+b1111 :
+b1110 9
+b1101 8
+b1100 7
+b1011 6
+b1010 5
+b1001 4
+b1000 3
+b111 2
+b110 1
+b101 0
+b100 /
+b11 .
+b10 -
+b1 ,
+b0 +
+b1 *
+b100 )
+b100000 (
+$end
+#0
+$dumpvars
+bx Q
+bx P
+b10000 O
+b10000 N
+0M
+b10000 L
+b0 '
+0&
+0%
+b0 $
+0#
+0"
+b10000 !
+$end
+#93800
+1#
+#187600
+0#
+#200000
+1&
+#281400
+1#
+#375200
+0#
+#400000
+b11001000 Q
+b10 P
+#469000
+1#
+#562800
+b11000 N
+1%
+b10 $
+b10 '
+0#
+#656600
+b11000 !
+b11000 O
+b11100 N
+b11000 L
+1"
+1#
+#750400
+b11000 N
+0%
+0#
+#844200
+0"
+1#
+#938000
+0#
+#950400
+b100 P
+#1031800
+1#
+#1125600
+b10100 N
+1%
+b100 $
+b100 '
+0#
+#1219400
+b10100 !
+b10100 O
+b10010 N
+b10100 L
+1"
+1#
+#1313200
+b10100 N
+0%
+0#
+#1407000
+0"
+1#
+#1500800
+0#
+#1513200
+b1 P
+#1594600
+1#
+#1688400
+b110100 N
+1%
+b1 $
+b1 '
+0#
+#1782200
+b110100 !
+b110100 O
+1M
+b110100 L
+1"
+1#
+#1876000
+0%
+0#
+#1969800
+0"
+1#
+#2063600
+0#
+#2076000
+b10 P
+#2157400
+1#
+#2251200
+1%
+b10 $
+b10 '
+0#
+#2345000
+1#
+#2438800
+0%
+0#
+#2532600
+1#
+#2626400
+0#
+#2720200
+1#
+#2814000
+0#
+#2907800
+1#
+#3001600
+0#
+#3095400
+1#
+#3138800
+b10000 !
+b10000 O
+b10000 N
+0M
+b10000 L
+0&
+#3189200
+0#
+#3283000
+1#
+#3338800
+1&
+#3376800
+0#
+#3470600
+1#
+#3564400
+b11000 N
+1%
+0#
+#3658200
+b11000 !
+b11000 O
+b11100 N
+b11000 L
+1"
+1#
+#3752000
+b11000 N
+0%
+0#
+#3845800
+0"
+1#
+#3939600
+0#
+#3952000
+b100 P
+#4033400
+1#
+#4127200
+b10100 N
+1%
+b100 $
+b100 '
+0#
+#4221000
+b10100 !
+b10100 O
+b10010 N
+b10100 L
+1"
+1#
+#4314800
+b10100 N
+0%
+0#
+#4408600
+0"
+1#
+#4502400
+0#
+#4514800
+b1 P
+#4596200
+1#
+#4690000
+b110100 N
+1%
+b1 $
+b1 '
+0#
+#4783800
+b110100 !
+b110100 O
+1M
+b110100 L
+1"
+1#
+#4877600
+0%
+0#
+#4971400
+0"
+1#
+#5065200
+0#
+#5159000
+1#
+#5252800
+0#
+#5346600
+1#
+#5440400
+0#
+#5534200
+1#
+#5577600
